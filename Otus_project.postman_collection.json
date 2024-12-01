@@ -1,0 +1,602 @@
+{
+	"info": {
+		"_postman_id": "7106d5c8-f28c-4283-8839-65ea3de65b55",
+		"name": "Otus_project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38952333"
+	},
+	"item": [
+		{
+			"name": "Изменить счет операции",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"organization_account_id\":24029,\r\n    \"cost\":6000,\r\n    \"comment\":\"Ремонт\",\r\n    \"operation_article_id\":354653,\r\n    \"contractor_id\":176802,\r\n    \"project_id\":92990,\r\n    \"operation_date\":\"1732867200\",\r\n    \"accrual_date\":\"1732953600\",\r\n    \"account_id\":24029\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/791738",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"791738"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить сумму операции",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"organization_account_id\":24029,\r\n    \"cost\":6000,\r\n    \"comment\":\"Ремонт\",\r\n    \"operation_article_id\":354653,\r\n    \"contractor_id\":176802,\r\n    \"project_id\":92990,\r\n    \"operation_date\":\"1732867200\",\r\n    \"accrual_date\":\"1732953600\",\r\n    \"account_id\":24029\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/791738",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"791738"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить контрагента",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"organization_account_id\":24029,\r\n    \"cost\":6000,\r\n    \"comment\":\"Ремонт\",\r\n    \"operation_article_id\":354653,\r\n    \"contractor_id\":65096,\r\n    \"project_id\":92990,\r\n    \"operation_date\":\"1732867200\",\r\n    \"accrual_date\":\"1732953600\",\r\n    \"account_id\":24029\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/791738",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"791738"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить дату оплаты",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"organization_account_id\":24029,\r\n    \"cost\":6000,\r\n    \"comment\":\"Ремонт\",\r\n    \"operation_article_id\":354653,\r\n    \"contractor_id\":176802,\r\n    \"project_id\":92990,\r\n    \"operation_date\":\"1733212800\",\r\n    \"accrual_date\":\"1732953600\",\r\n    \"account_id\":24029\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/791738",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"791738"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить дату начисления",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"organization_account_id\":24029,\r\n    \"cost\":6000,\r\n    \"comment\":\"Ремонт\",\r\n    \"operation_article_id\":354653,\r\n    \"contractor_id\":176802,\r\n    \"project_id\":92990,\r\n    \"operation_date\":\"1733212800\",\r\n    \"accrual_date\":\"1734076800\",\r\n    \"account_id\":24029\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/791738",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"791738"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить назначение платежа",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"organization_account_id\":24029,\r\n    \"cost\":6000,\r\n    \"comment\":\"Покупка\",\r\n    \"operation_article_id\":354653,\r\n    \"contractor_id\":176802,\r\n    \"project_id\":92990,\r\n    \"operation_date\":\"1733212800\",\r\n    \"accrual_date\":\"1734076800\",\r\n    \"account_id\":24029\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/791738",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"791738"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Изменить статью",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"organization_account_id\":24029,\r\n    \"cost\":6000,\r\n    \"comment\":\"Покупка\",\r\n    \"operation_article_id\":50,\r\n    \"contractor_id\":176802,\r\n    \"project_id\":92990,\r\n    \"operation_date\":\"1733212800\",\r\n    \"accrual_date\":\"1734076800\",\r\n    \"account_id\":24029\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/791738",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"791738"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить список всех операций",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations?page=1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Добавить операцию \"Расход\"",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"operation_date\":\"1738224000\",\r\n\"accrual_date\":\"1736755200\",\r\n\"cost\":9000,\r\n\"operation_article_id\":354654,\r\n\"contractor_id\":176802,\r\n\"account_id\":24027,\r\n\"comment\":\"штукатурка\",\r\n\"project_id\":92990\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить статистику компании",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.gectaro.com/v1/companies/7323/statistics/financial",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v1",
+						"companies",
+						"7323",
+						"statistics",
+						"financial"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить данные операции 790989",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/790989",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"790989"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить операцию",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/791179",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"791179"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удалить несколько операций",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ids\": [792231,792232]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/batch",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"batch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Экспорт операций",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "O74iXedV1UTvqDvoPdlgbWquVykGOpoY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ids\": [792231,792232]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.gectaro.com/v2/projects/92990/finance/payment-operations/export-selected?ids=791738,790923",
+					"protocol": "https",
+					"host": [
+						"api",
+						"gectaro",
+						"com"
+					],
+					"path": [
+						"v2",
+						"projects",
+						"92990",
+						"finance",
+						"payment-operations",
+						"export-selected"
+					],
+					"query": [
+						{
+							"key": "ids",
+							"value": "791738,790923"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
